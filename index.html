@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StayFinder</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+            StayFinder
+        </a>
+
+
+        <!-- Navigation -->
+        <nav class="navbar">
+
+            <a href="stays.html">
+                Stays
+            </a>
+
+            <a href="experiences.html">
+                Experiences
+            </a>
+
+            <a href="online-experiences.html">
+                Online Experiences
+            </a>
+
+        </nav>
+
+
+        <!-- Right Side -->
+        <div class="header-right">
+
+            <a href="#" class="host-link">
+                Become a host
+            </a>
+
+            <button class="profile-button" type="button">
+                ☰
+                <span>👤</span>
+            </button>
+
+
+
+        </div>
+
+
+        <!-- Hamburger Menu -->
+
+        <div class="menu-btn" id="menuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         CAROUSEL 1
+         POPULAR HOMES
+    ====================================================== -->
+
+    <section class="places-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p>DISCOVER</p>
+
+                <h1>
+                    Popular homes in Lekki
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel">
+
+            <button class="arrow previous" type="button">
+                ←
+            </button>
+
+
+            <div class="carousel-window">
+
+                <div class="carousel-track">
+
+
+                    <!-- CARD 1 -->
+                    <article class="place-card ">
+
+                        <img class="img" src="./img/Elegant living room1.jpg" alt="Beach">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Lagos, Nigeria
+                            </p>
+
+                            <h2 class="title">
+                                Beautiful Beach
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" oncl class="img"
+                                ick="viewRentals('Lagos, Nigeria', 'Beautiful Beach','./img/Elegant living room1.jpg')">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 2 -->
+                    <article class="place-card ">
+
+                        <img class="img" src="./img/Elegant living room2.jpg" alt="City">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Lekki, Lagos
+                            </p>
+
+                            <h2 class="title">
+                                Modern City Home
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" oncl class="img"
+                                ick="viewRentals('Lekki, Lagos','Modern City Home','./img/Elegant living room2.jpg')">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 3 -->
+                    <article class="place-card ">
+
+                        <img class="img" src="./img/Elegant living room3.jpg" alt="Mountain">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Cape Town, South Africa
+                            </p>
+
+                            <h2 class="title">
+                                Mountain Escape
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" oncl class="img"
+                                ick="viewRentals('Cape Town, South Africa','Mountain Escape','./img/Elegant living room3.jpg')">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 4 -->
+                    <article class="place-card ">
+
+                        <img class="img" src="./img/Elegant living room6.jpg
+                        " alt="Nature">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Tokyo, Japan
+                            </p>
+
+                            <h2 class="title">
+                                Peaceful Nature
+                            </h2>
+
+                            <span>
+                                ★ 4.7
+                            </span>
+                            <button class="gallery-btn" oncl class="img"
+                                ick="viewRentals('Tokyo, Japan','Peaceful Nature','./img/Elegant living room6.jpg')">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 5 -->
+                    <article class="place-card ">
+
+                        <img class="img" src="./img/Elegant-living room 1.jpg" alt="Travel">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Paris, France
+                            </p>
+
+                            <h2 class="title">
+                                Romantic Escape
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" oncl class="img"
+                                ick="viewRentals('Paris, France','Romantic Escape','./img/Elegant-living room 1.jpg')">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD 6 -->
+                    <article class="place-card ">
+
+                        <img class="img" src="./img/Elegant-living room2.webp" alt="Forest">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Canada
+                            </p>
+
+                            <h2 class="title">
+                                Forest Retreat
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" oncl class="img"
+                                ick="viewRentals('Canada','Forest Retreat','./img/Elegant-living room2.webp')">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button class="arrow next" type="button">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAROUSEL 2
+         GREAT HOTELS
+    ====================================================== -->
+
+    <section class="places-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p>STAY</p>
+
+                <h1>
+                    Great Hotels for your next trip
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel">
+
+            <button class="arrow previous" type="button">
+                ←
+            </button>
+
+
+            <div class="carousel-window">
+
+                <div class="carousel-track">
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+                            alt="Luxury hotel">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Lagos, Nigeria
+                            </p>
+
+                            <h2 class="title">
+                                Luxury Hotel
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa"
+                            alt="Hotel room">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Dubai, UAE
+                            </p>
+
+                            <h2 class="title">
+                                Grand Hotel
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6"
+                            alt="Hotel pool">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Accra, Ghana
+                            </p>
+
+                            <h2 class="title">
+                                Ocean View Resort
+                            </h2>
+
+                            <span>
+                                ★ 4.7
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb" alt="Hotel">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                London, UK
+                            </p>
+
+                            <h2 class="title">
+                                Royal Stay
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+                            alt="Modern hotel">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                New York, USA
+                            </p>
+
+                            <h2 class="title">
+                                City Luxury
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7"
+                            alt="Resort">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Zanzibar
+                            </p>
+
+                            <h2 class="title">
+                                Tropical Resort
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button class="arrow next" type="button">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAROUSEL 3
+         BEACH DESTINATIONS
+    ====================================================== -->
+
+    <section class="places-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p>ESCAPE</p>
+
+                <h1>
+                    Beautiful beach destinations
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel">
+
+            <button class="arrow previous" type="button">
+                ←
+            </button>
+
+
+            <div class="carousel-window">
+
+                <div class="carousel-track">
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Maldives
+                            </p>
+
+                            <h2 class="title">
+                                Blue Ocean Paradise
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57"
+                            alt="Tropical beach">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Hawaii, USA
+                            </p>
+
+                            <h2 class="title">
+                                Tropical Escape
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+                            alt="Beach resort">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Bali, Indonesia
+                            </p>
+
+                            <h2 class="title">
+                                Bali Beach House
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1505881502353-a1986add3762"
+                            alt="Island">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Seychelles
+                            </p>
+
+                            <h2 class="title">
+                                Island Paradise
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1493552152660-f915ab47ae9d"
+                            alt="Beach house">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Phuket, Thailand
+                            </p>
+
+                            <h2 class="title">
+                                Ocean Villa
+                            </h2>
+
+                            <span>
+                                ★ 4.7
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Coast">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Mauritius
+                            </p>
+
+                            <h2 class="title">
+                                Coastal Retreat
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button class="arrow next" type="button">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAROUSEL 4
+         LUXURY APARTMENTS
+    ====================================================== -->
+
+    <section class="places-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p>PREMIUM</p>
+
+                <h1>
+                    Luxury apartments
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel">
+
+            <button class="arrow previous" type="button">
+                ←
+            </button>
+
+
+            <div class="carousel-window lagosNigeria">
+
+                <div class="carousel-track">
+
+
+                    <article class="place-card">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d"
+                            alt="Luxury apartment">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Lagos, Nigeria
+                            </p>
+
+                            <h2 class="title">
+                                Modern Luxury
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea"
+                            alt="Apartment">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Dubai, UAE
+                            </p>
+
+                            <h2 class="title">
+                                Sky Apartment
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0"
+                            alt="Living room">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Paris, France
+                            </p>
+
+                            <h2 class="title">
+                                Paris Residence
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154"
+                            alt="Modern home">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                London, UK
+                            </p>
+
+                            <h2 class="title">
+                                Modern Residence
+                            </h2>
+
+                            <span>
+                                ★ 4.7
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1613490493576-7fde63acd811"
+                            alt="Luxury house">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                California, USA
+                            </p>
+
+                            <h2 class="title">
+                                Designer Villa
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                            alt="Modern villa">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Cape Town
+                            </p>
+
+                            <h2 class="title">
+                                Mountain Villa
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button class="arrow next" type="button">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAROUSEL 5
+         EXPERIENCES
+    ====================================================== -->
+
+    <section class="places-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p>EXPERIENCE</p>
+
+                <h1>
+                    Things to do
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel">
+
+            <button class="arrow previous" type="button">
+                ←
+            </button>
+
+
+            <div class="carousel-window">
+
+                <div class="carousel-track">
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf"
+                            alt="Food experience">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Lagos, Nigeria
+                            </p>
+
+                            <h2 class="title">
+                                Local Food Tour
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e"
+                            alt="Adventure">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Cape Town
+                            </p>
+
+                            <h2 class="title">
+                                Mountain Adventure
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1528605248644-14dd04022da1"
+                            alt="Friends">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Accra, Ghana
+                            </p>
+
+                            <h2 class="title">
+                                City Experience
+                            </h2>
+
+                            <span>
+                                ★ 4.7
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                            alt="Nature walk">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Tokyo, Japan
+                            </p>
+
+                            <h2 class="title">
+                                Nature Walk
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8"
+                            alt="Sunset">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Santorini, Greece
+                            </p>
+
+                            <h2 class="title">
+                                Sunset Experience
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                            alt="Travel experience">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Paris, France
+                            </p>
+
+                            <h2 class="title">
+                                Cultural Discovery
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button class="arrow next" type="button">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAROUSEL 6
+         POPULAR DESTINATIONS
+    ====================================================== -->
+
+    <section class="places-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p>TRAVEL</p>
+
+                <h1>
+                    Popular destinations
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel">
+
+            <button class="arrow previous" type="button">
+                ←
+            </button>
+
+
+            <div class="carousel-window">
+
+                <div class="carousel-track">
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1530789253388-582c481c54b0" alt="Paris">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Paris, France
+                            </p>
+
+                            <h2 class="title">
+                                The City of Lights
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1519501025264-65ba15a82390"
+                            alt="New York">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                New York, USA
+                            </p>
+
+                            <h2 class="title">
+                                New York City
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf" alt="Tokyo">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Tokyo, Japan
+                            </p>
+
+                            <h2 class="title">
+                                Tokyo Adventure
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1518684079-3c830dcef090" alt="Dubai">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Dubai, UAE
+                            </p>
+
+                            <h2 class="title">
+                                Dubai Skyline
+                            </h2>
+
+                            <span>
+                                ★ 4.8
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4" alt="Rome">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Rome, Italy
+                            </p>
+
+                            <h2 class="title">
+                                Historic Rome
+                            </h2>
+
+                            <span>
+                                ★ 4.7
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="place-card ">
+
+                        <img class="img" src="https://images.unsplash.com/photo-1533105079780-92b9be482077"
+                            alt="Santorini">
+
+                        <div class="card-content">
+
+                            <p class="p">
+                                Santorini, Greece
+                            </p>
+
+                            <h2 class="title">
+                                Greek Paradise
+                            </h2>
+
+                            <span>
+                                ★ 4.9
+                            </span>
+                            <button class="gallery-btn" onclick="viewRentals()">
+                                <span>More</span>
+                                <span class="arrows">→</span>
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button class="arrow next" type="button">
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <div class="selected-place" id="selectedPlace">
+
+        <button id="closeSelected">❌</button>
+
+        <img id="selectedImage" src="" alt="Selected place">
+
+        <p id="selectedLocation"></p>
+
+        <button id="getWeather" class="get-weather">Get Weather</button>
+
+
+    </div>
+
+
+
+    <!-- Get Weather container -->
+    <div class="weather-container">
+
+        <form class="weather-form" id="weatherForm">
+            <label for="apiKey"> input your apikey
+                <input type="password" name="" id="apikey">
+            </label>
+            <label for="location">input the location you want to get
+                <input type="text" name="" id="city">
+            </label>
+
+            <div class="weather-button">
+                <button type="button" class="unit" data-unit="metric">°C</button>
+                <button type="button" class="unit" data-unit="imperial">°F</button>
+                <button type="button" class="unit" data-unit="standard">K</button>
+            </div>
+
+            <button id="getWeatherBtn" class="get-weather">Get weather</button>
+
+            <div id="weatherCard"></div>
+
+            <button id="closeBtn">❌</button>
+            <div class="error-box" id="errorBox"></div>
+        </form>
+    </div>
+    <!-- date.now -->
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <h2>Inspiration for feature getaways</h2>
+
+            <div class="switcher-buttons-container">
+                <button class="switcher-btn" data-name="popular">Popular</button>
+                <button class="switcher-btn" data-name="artCulture">Art&Culture</button>
+                <button class="switcher-btn" data-name="beach">Beach</button>
+                <button class="switcher-btn" data-name="mountains">mountains</button>
+                <button class="switcher-btn" data-name="outdoors">Outdoors</button>
+                <button class="switcher-btn" data-name="things">Things to do</button>
+                <button class="switcher-btn" data-name="travel">Travel tips & inspiration</button>
+                <button class="switcher-btn" data-name="stayFinder">Stay-Finder-friendly
+                    apartments</button>
+            </div>
+        </div>
+
+
+        <div id="footerDisplay"></div>
+        <!--  -->
+
+
+        <div class="footer-second-grid">
+
+            <div>
+                <h2>Support</h2>
+                <a href="">Help Center</a>
+                <a href="">Get help with a safety issue</a>
+                <a href="">AirCover</a>
+                <a href="">Travel insurance</a>
+                <a href="">Anti-discrimination</a>
+                <a href="">Disability support</a>
+                <a href="">Cancellation options</a>
+                <a href="">Report neigbourhood concern</a>
+            </div>
+
+            <div>
+                <h2>Hosting</h2>
+                <a href="">StayFinder your home</a>
+                <a href="">StayFinder your experience</a>
+                <a href="">StayFinder your service</a>
+                <a href="">AirCover for Hosts</a>
+                <a href="">Hosting resources</a>
+                <a href="">Community forum</a>
+                <a href="">Hosting responsibly</a>
+                <a href="">Stay-Finder-friendly apartments</a>
+                <a href="">Join a free hosting class</a>
+                <a href="">Find a co-host</a>
+                <a href="">Refer a host</a>
+            </div>
+
+
+            <div>
+                <h2>StayFinder</h2>
+                <a href="">2026 summer Release</a>
+                <a href="">Newsroom</a>
+                <a href="">Careers</a>
+                <a href="">investors</a>
+                <a href="">Git cards</a>
+                <a href="">stayFinder.org emergency stays</a>
+            </div>
+
+        </div>
+
+        <div class="footer-second-grid-for-media">
+
+            <div>
+                <h2>Support</h2>
+                <details>
+                    <a href="">Help Center</a>
+                    <a href="">Get help with a safety issue</a>
+                    <a href="">AirCover</a>
+                    <a href="">Travel insurance</a>
+                    <a href="">Anti-discrimination</a>
+                    <a href="">Disability support</a>
+                    <a href="">Cancellation options</a>
+                    <a href="">Report neigbourhood concern</a>
+                </details>
+            </div>
+
+            <div>
+                <h2>Hosting</h2>
+                <details>
+                    <a href="">StayFinder your home</a>
+                    <a href="">StayFinder your experience</a>
+                    <a href="">StayFinder your service</a>
+                    <a href="">AirCover for Hosts</a>
+                    <a href="">Hosting resources</a>
+                    <a href="">Community forum</a>
+                    <a href="">Hosting responsibly</a>
+                    <a href="">Stay-Finder-friendly apartments</a>
+                    <a href="">Join a free hosting class</a>
+                    <a href="">Find a co-host</a>
+                    <a href="">Refer a host</a>
+                </details>
+            </div>
+
+
+            <div>
+                <h2>StayFinder</h2>
+                <details>
+                    <a href="">2026 summer Release</a>
+                    <a href="">Newsroom</a>
+                    <a href="">Careers</a>
+                    <a href="">investors</a>
+                    <a href="">Git cards</a>
+                    <a href="">stayFinder.org emergency stays</a>
+                </details>
+            </div>
+
+        </div>
+
+
+        <div class="footer-lower-links">
+
+            <div class="muted">
+                &copy;2026 StayFinder, inc, <a href="">Privacy||</a><a href="">Terms</a> Your Privacy Choices
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- Back To Top -->
+
+    <button id="backToTop" class="back-to-top">
+        ↑
+    </button>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
