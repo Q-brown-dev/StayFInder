@@ -1,0 +1,17 @@
+{
+  "name": "hotel-booking",
+  "version": "1.0.0",
+  "description": "This is an an website that is designed to help users find places like an Hotel, a Home and the likes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env=.env node js/weather.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
